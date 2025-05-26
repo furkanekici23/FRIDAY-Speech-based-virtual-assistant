@@ -35,7 +35,9 @@
 3.Run the assistant:
   `  python friday.py `
 
+
 ✨ Development Roadmap
+
  ✅Voice command recognition and response
 
  ✅ web-integrated info retrieval for some fields
