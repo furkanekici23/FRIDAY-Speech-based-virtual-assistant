@@ -1,0 +1,54 @@
+{
+  "specialized_1": {
+    "keywords": ["jane","cansu"],
+    "response": "Very beautiful girl. Isn't she?"
+  },
+  "specialized_2": {
+   "keywords": ["galatasaray"],
+   "response" : "Galatasaray is the best club in the World."
+
+  },
+  "specialized_3" :{
+    "keywords":["do you love me"],
+    "response" : "Yes I love you very much."
+  },
+
+  "greeting": {
+    "keywords": ["hello", "hi", "hey"],
+    "response": "Hello! How can I help you?"
+  },
+ 
+  "how_are_you": {
+    "keywords": ["how are you", "are you okay", "how do you do"],
+    "response": "I am a virtual assistant, so I'm doing great. How about you?"
+  },
+  "time_query": {
+    "keywords": ["what time is it", "time", "current time"],
+    "response": "I can tell you the time, but for that, I need to check my system. Please hold on."
+  },
+  "thank_you": {
+    "keywords": ["thank you", "thanks"],
+    "response": "You're most welcome! Is there anything else?"
+  },
+  "who_are_you": {
+    "keywords": ["who are you", "what is your name","what's your name"],
+    "response": "I am Friday, your personal AI assistant."
+  },
+  "tell_joke": {
+    "keywords": ["tell a joke", "make me laugh","joke"],
+    "response": "Why don't scientists trust atoms? Because they make up everything!"
+  },
+  "mood": {
+    "keywords": ["i am sad", "i'm feeling down"],
+    "response": "I'm sorry to hear that. I hope things get better soon."
+  },
+  "affirmation": {
+    "keywords": ["yes", "yeah"],
+    "response": "Great!"
+  },
+  "negation": {
+    "keywords": ["no", "nope"],
+    "response": "Understood." 
+  }
+  
+}
