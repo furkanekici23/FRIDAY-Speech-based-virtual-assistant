@@ -1,6 +1,6 @@
 # 🧠 FRIDAY - Speech-Based Virtual Assistant
 
-**FRIDAY** is a Python-based voice assistant that helps you with everyday tasks such as reading the news, checking the weather, searching Wikipedia, playing music, opening websites, and more — all through voice commands.
+**FRIDAY** is a Python-based voice assistant that helps you with everyday tasks such as checking the weather,  playing music, opening websites, and more — all through voice commands.
 
 ## 🚀 Features
 
