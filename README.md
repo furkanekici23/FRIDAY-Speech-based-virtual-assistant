@@ -8,7 +8,6 @@
 - 🗣️ **Text-to-Speech (TTS)**
 - 📺 **Play Music on YouTube**
 - 🌤️ **Weather Information**
-- 📰 **Latest News Headlines**
 - 🕰️ **Tells the Current Time and Date**
 - 😂 **Tells Jokes**
 - 🖥️ **Opens Popular Websites (Google, YouTube, GitHub, etc.)**
