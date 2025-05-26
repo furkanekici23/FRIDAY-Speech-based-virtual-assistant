@@ -31,6 +31,7 @@
    cd FRIDAY-Speech-based-virtual-assistant/friday
 2.Install the required packages:
  ` pip install -r requirements.txt `
+ 
 3.Run the assistant:
   `  python friday.py `
 
