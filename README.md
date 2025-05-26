@@ -6,13 +6,11 @@
 
 - 🎙️ **Speech Recognition**
 - 🗣️ **Text-to-Speech (TTS)**
-- 🌐 **Wikipedia Search**
 - 📺 **Play Music on YouTube**
 - 🌤️ **Weather Information**
 - 📰 **Latest News Headlines**
 - 🕰️ **Tells the Current Time and Date**
 - 😂 **Tells Jokes**
-- 🔐 **Simple Login System**
 - 🖥️ **Opens Popular Websites (Google, YouTube, GitHub, etc.)**
 
 ## 🛠️ Technologies Used
@@ -20,7 +18,6 @@
 - `Python 3.x`
 - `speech_recognition`
 - `pyttsx3`
-- `wikipedia`
 - `pywhatkit`
 - `selenium`
 - `requests`
