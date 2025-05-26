@@ -108,7 +108,7 @@ def get_weather_response(city_name):
         return f"An error occurred while retrieving weather data: {e}"
 
 
-def start_app(): # SORUNLU
+def start_app(): # THIS FUNCTION MAY NOT WORK PROPERLY ON DIFFERENT COMPUTERS.
     prompt = (
         "Which application do you want to run? "
         "You can say 'spotify', 'fifa', 'youtube' or 'google chrome'."
@@ -182,7 +182,7 @@ def get_bot_response(user_input): #MAİN
         else:
             return "Please specify the city you want the weather information for."
 
-    # JSON'dan cevap alma (dosya yolunu kendi dosya yoluna göre ayarla)
+    # Get response from JSON (set file path to own file path)
     try:
         json_file_path = r"D:\Masaüstü\CODİNG\python\projeler\1_python_for_fun_projemsiler\friday\responses.json"
         with open(json_file_path, 'r', encoding='utf-8') as f:
@@ -224,7 +224,7 @@ try:
             text_to_speech(bot_response)
 
         else:
-            # Ses algılanamadığında yazılı giriş al
+            # Take text input when no sound is detected
             
             text_to_speech("I didn't catch that. Please type your command.")
             user_text = input("I didn't catch that. Please type your command: ").strip()
