@@ -11,6 +11,7 @@
 - 🕰️ **Tells the Current Time and Date**
 - 😂 **Tells Jokes**
 - 🖥️ **Opens Popular Websites (Google, YouTube, GitHub, etc.)**
+- ❌🅾️❌  **Has playable Tic Tac Toe Game**
 
 ## 🛠️ Technologies Used
 
