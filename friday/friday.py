@@ -11,6 +11,7 @@ import requests
 import subprocess
 import webbrowser
 
+
 # pygame başlat
 pygame.init()
 pygame.mixer.init()
@@ -108,7 +109,7 @@ def get_weather_response(city_name):
         return f"An error occurred while retrieving weather data: {e}"
 
 
-def start_app(): # THIS FUNCTION MAY NOT WORK PROPERLY ON DIFFERENT COMPUTERS.
+def start_app(): # SORUNLU
     prompt = (
         "Which application do you want to run? "
         "You can say 'spotify', 'fifa', 'youtube' or 'google chrome'."
@@ -155,9 +156,15 @@ def start_app(): # THIS FUNCTION MAY NOT WORK PROPERLY ON DIFFERENT COMPUTERS.
             text_to_speech("I couldn't find the application. Please say the name again.")
 
     
+
+
 def get_bot_response(user_input): #MAİN
     user_input_lower = user_input.lower()
-
+    #xox oyunu
+    if any(kw in user_input_lower for kw in ["xox","tic tac toe","Tic-tac-toe","tic-tac-toe"]):
+        from xox_normal import xox
+        xox()
+        return "I hope you enjoyed the tic-tac-toe game!"
     # Uygulama açma
     if any(kw in user_input_lower for kw in ["start","run","spotify","fifa","chrome"]):
         start_app()
@@ -181,8 +188,10 @@ def get_bot_response(user_input): #MAİN
             return get_weather_response(city)
         else:
             return "Please specify the city you want the weather information for."
+        
+    
 
-    # Get response from JSON (set file path to own file path)
+    # JSON'dan cevap alma (dosya yolunu kendi dosya yoluna göre ayarla)
     try:
         json_file_path = r"D:\Masaüstü\CODİNG\python\projeler\1_python_for_fun_projemsiler\friday\responses.json"
         with open(json_file_path, 'r', encoding='utf-8') as f:
@@ -224,7 +233,7 @@ try:
             text_to_speech(bot_response)
 
         else:
-            # Take text input when no sound is detected
+            # Ses algılanamadığında yazılı giriş al
             
             text_to_speech("I didn't catch that. Please type your command.")
             user_text = input("I didn't catch that. Please type your command: ").strip()
